@@ -1,0 +1,18 @@
+server:
+  port: 8100
+
+spring:
+  application:
+    name: bicycle
+
+  datasource:
+    url: jdbc:mysql://localhost:3306/bicycle
+    username: root
+    password:
+  sql:
+    init:
+      platform: mysql
+
+  jpa:
+    hibernate:
+      ddl-auto: update
